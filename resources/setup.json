@@ -1,0 +1,25 @@
+{
+    "run_setup": {
+        "speed": {"level": 8},
+        "sync": {"level": 5},
+        "siphon": {"level": 5},
+        "fire": true,
+        "string_stepping": false,
+        "super_siphon": true,
+        "uu": true
+    },
+
+    "cr_setup": {
+        "TA": "100%",
+        "bulwark": "48%",
+        "normal": "78%",
+        "eclipse": "45%"
+    },
+
+    "augmentation": {
+        "gold": true,
+        "sigils": true,
+        "secrets": true,
+        "cores": true
+    }
+}
