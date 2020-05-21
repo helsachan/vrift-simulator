@@ -17,7 +17,7 @@ steps = list(zip(steps['floor'] + 1, steps['total_steps']))
 row_dict = {    
     'steps': input_val['steps'],
     'floor': steps[0][0],
-    'eclipses': steps[0][0] // 8,
+    'eclipses': (steps[0][0]-1) // 8,
     'stamina': input_val['stamina'],
     'floor_step_no': steps[0][1],
     'next_estep': estep[0],
